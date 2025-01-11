@@ -1,0 +1,20 @@
+{
+  "name": "tms-react-package",
+  "version": "1.0.0",
+  "description": "React components package",
+  "main": "src/components/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "author": "Tomas",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "7.26.3",
+    "prop-types": "^15.8.1",
+    "react": "^19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
